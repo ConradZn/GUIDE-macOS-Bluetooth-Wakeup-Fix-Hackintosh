@@ -48,11 +48,12 @@ Restarting `bluetoothd` requires root privileges (`sudo`). To let the script run
 1. Open the sudoers file using the Nano editor:
 ```bash
 sudo EDITOR=nano visudo
-
+```
 
 2. Scroll to the very bottom of the file and append the following line:
    ```text
    %admin ALL=(ALL) NOPASSWD: /usr/bin/pkill bluetoothd
+```
    
 3. Save and exit: Press `Ctrl + O`, then `Enter`, then `Ctrl + X`.
 
@@ -63,11 +64,7 @@ Sleepwatcher automatically looks for a hidden script named `.wakeup` in your hom
 1. Create and open the file:
 ```bash
 nano ~/.wakeup
-
-
 ```
-
-
 
 ```
 2. Paste the following bash script:
