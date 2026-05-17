@@ -6,9 +6,6 @@ You need **Homebrew** installed. If you don't have it, open your Terminal and ru
 /bin/bash -c "$(curl -fsSL '[https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh](https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)')"
 
 ```
-
-*Note: If you are on Apple Silicon (M1/M2/M3), make sure to follow the "Next steps" in the terminal to add `brew` to your PATH.*
-
 ---
 
 ## Step-by-Step Installation
