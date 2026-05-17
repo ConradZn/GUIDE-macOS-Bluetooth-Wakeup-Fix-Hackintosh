@@ -104,5 +104,3 @@ If it stops working after a macOS update, ensure the `sleepwatcher` service is s
 brew services restart sleepwatcher
 
 ```
-
-```
