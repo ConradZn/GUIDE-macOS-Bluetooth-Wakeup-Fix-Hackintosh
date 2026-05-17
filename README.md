@@ -66,18 +66,16 @@ Sleepwatcher automatically looks for a hidden script named `.wakeup` in your hom
 ```bash
 nano ~/.wakeup
 ```
-
 ```
 2. Paste the following bash script:
    ```bash
    #!/bin/bash
    # Forces macOS to restart the bluetooth daemon on Hackintosh wakeup
    sudo /usr/bin/pkill bluetoothd
-   
-
 ```
 
 3. Save and exit: Press `Ctrl + O`, then `Enter`, then `Ctrl + X`.
+```
 
 ### 4. Make the Script Executable
 
