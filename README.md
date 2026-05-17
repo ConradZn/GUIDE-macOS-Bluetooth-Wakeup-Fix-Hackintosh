@@ -50,18 +50,10 @@ Restarting `bluetoothd` requires root privileges (`sudo`). To let the script run
 sudo EDITOR=nano visudo
 
 
-```
-
-
-
-```
 2. Scroll to the very bottom of the file and append the following line:
    ```text
    %admin ALL=(ALL) NOPASSWD: /usr/bin/pkill bluetoothd
    
-
-```
-
 3. Save and exit: Press `Ctrl + O`, then `Enter`, then `Ctrl + X`.
 
 ### 3. Create the Wakeup Script
