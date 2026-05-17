@@ -2,8 +2,6 @@
 
 An automated guide to fix the notorious Hackintosh bug where Bluetooth stops working after waking up from sleep.
 
-On many Hackintosh builds, the Bluetooth module (connected via an internal USB header) fails to reinitialize properly after power state changes due to USB power management or controller sleep issues. This setup automatically restarts the macOS `bluetoothd` daemon upon every wakeup, forcing macOS to re-probe the USB ports and bring your Bluetooth back to life completely hands-free.
-
 ---
 
 ## Prerequisites (Install Homebrew)
