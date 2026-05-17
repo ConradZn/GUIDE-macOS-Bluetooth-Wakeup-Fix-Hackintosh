@@ -54,8 +54,9 @@ sudo EDITOR=nano visudo
    ```text
    %admin ALL=(ALL) NOPASSWD: /usr/bin/pkill bluetoothd
 ```
-   
+
 3. Save and exit: Press `Ctrl + O`, then `Enter`, then `Ctrl + X`.
+```
 
 ### 3. Create the Wakeup Script
 
